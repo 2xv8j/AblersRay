@@ -1,0 +1,22 @@
+*	{
+			text-decoration: none;
+		}
+
+#l501	{
+			color: #38a4ff;
+			font-size: 50px;
+		}
+		
+#ritu {
+		 width: 400px;
+		 padding: 16px;
+		 border: none;
+		 border-radius: 16px;
+			}
+
+#l50201 .btn{
+		padding: 11px;
+		background-color: red;
+		border-top-right-radius: 14px;
+		border-bottom-right-radius: 14px;
+			}

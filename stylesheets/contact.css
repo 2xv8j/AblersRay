@@ -1,0 +1,33 @@
+#myFont	{
+	font-face: Microsoft YaHei Light;
+	color: black;
+	text-shadow: 1px 1px blue;
+   }
+						
+#l1 a:hover{ 
+	  		 text-shadow: black 1px 1px 1px;
+	  		 border-bottom: 2px solid white
+				}
+				
+#body { 
+	  		 background-attachment: fixed;
+				}
+				
+#L402 .btn { 
+					width: 204px;
+	  		 		height: 40px;
+	  		 		background-color: white;
+	  		 		border: none;
+	  		 		border-left: 2px solid green;
+	  		 		opacity: 0.8;
+	  		 		font-size: 16px;
+	  		 		border-radius: 5px;
+						}
+						
+#L402 .btn:hover{
+	  				opacity: 1;
+						}
+						
+* {
+	 text-decoration: none;
+		}

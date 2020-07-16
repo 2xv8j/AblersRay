@@ -1,0 +1,22 @@
+* {
+	text-decoration: none;
+		}
+
+#l1 a:hover{
+				border: none;
+				border-bottom: 2px solid white;
+				opacity: 1;
+					}
+
+#l2{
+		
+					}
+
+#l3 {
+				font-size: 60px;
+					}
+					
+#l4 {
+				transform: rotate(355deg);
+				font-size: 45px;
+					}

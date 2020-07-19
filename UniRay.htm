@@ -3,6 +3,12 @@
 <head>
 <link rel="stylesheet" type="text/css" href="stylesheets/UniRay.css">
 <title>UniRay</title>
+    <style>
+      #map {
+        height: 420px;
+        width: 100%;
+       }
+    </style>
 </head>
 
 <body BACKGROUND="Images/uniray-bg.jpg">
@@ -22,7 +28,7 @@
 
 
 
-<div style="border-left: 5px none; border-top: 5px solid #38a4ff; border-bottom: 5px solid #38a4ff; position: absolute; top: 60px; text-decoration: none; left: 1151px; width: 182px; z-index:4; height:539px" id="l4">
+<div style="border-left: 5px none; border-top: 5px solid #38a4ff; border-bottom: 5px solid #38a4ff; position: absolute; top: 60px; text-decoration: none; left: 1119px; width: 220px; z-index:4; height:539px" id="l4">
 <p style="line-height: 350%; margin-top: 19px" align="center">
 <font color="#FFFFFF" face="Pristina" size="6">
 
@@ -60,7 +66,7 @@
 
 
 
-<div style="position: absolute; width: 1349px; height: 547px; z-index: 5; left: 0px; top: 1344px; background-color: black; opacity: 0.9;" id="b1">
+<div style="position: absolute; width: 1349px; height: 547px; z-index: 5; left: 0px; top: 1391px; background-color: black; opacity: 0.9" id="b1">
 
 <div style="position: absolute; width: 348px; height: 288px; top: 45px; left: 60px; z-index: 6" id="b101">
 <center>
@@ -202,8 +208,24 @@
 
 
 
-<div style="position: absolute; width: 1349px; height: 649px; z-index: 10; left: 0px; top: 695px; background-color: white" id="l6">
-&nbsp;</div>
+<div style="position: absolute; width: 1349px; height: 696px; z-index: 10; left: 0px; top: 695px; background-color: white" id="l6">
+	<div style="position: absolute; width: 1206px; height: 420px; z-index: 1; left: 77px; top: 155px" id="Map">
+		<div id="map"></div>
+    <script>
+function initMap() {
+  var uluru = {lat: 20.5937, lng: 78.9629};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+
+	</div>
+</div>
 
 <div style="position: absolute; width: 502px; height: 43px; z-index: 14; left: 380px; top: 576px" id="l5">
 	<input type="text" placeholder="What are you searching for?" class="searchBox">

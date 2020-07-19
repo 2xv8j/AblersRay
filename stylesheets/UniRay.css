@@ -16,6 +16,13 @@
 		color: white;
 		}
 		
+		
+#Map {
+		border: 1px solid #38a4ff;
+		border-radius: 15px;
+		}
+			
+		
 #l5 .searchBox{
 		width: 500px;
 		padding: 15px;

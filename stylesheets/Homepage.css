@@ -1,20 +1,19 @@
+* {
+	text-decoration: none;
+}
+
 #body {
 		background-attachment: fixed;
 		 		}
-#l1 a:hover{
+#top-nav a:hover{
 	  		 border-bottom: 2px solid white;
 				 }
 		 
-#l2 {
+#logo-text {
 	   font-size: 82px;
 		 }
-
-#l3 {
-	   font-size: 30px;
-	   transform: rotate(270deg);
-		 }
 		 
-#l4 {
+#center-img {
 	   font-size: 40px;
 		 }
 
@@ -22,10 +21,8 @@
 	   font-size: 75px;
 		 }
 
-#l10 {
+#message {
 	   font-size: 25px;
 		 }
 				
-* {
-	text-decoration: none;
-}
+

@@ -25,21 +25,21 @@
 				text-shadow: 0.2px 0.2px grey;
 					}
 					
-#l401 {
+#article1 {
 				filter: sepia(40%);
 					}				
 					
-#l402 {
+#article2 {
 				filter: sepia(40%);
 					}
 					
-#l403 {
+#article3 {
 				filter: sepia(40%);
 					}
 					
 					
 		
-#l404 .search-box{
+#recent-posts .search-box{
 					font-size: 16px;
 					width: 410px;
 					padding: 12px 90px 12px 20px;
@@ -48,7 +48,7 @@
 					border: 1px solid red;
 						}
 						
-#l404 .search-btn{
+#recent-posts .search-btn{
 					font-size: 16px;
 					width: 80px;
 					padding: 8px;

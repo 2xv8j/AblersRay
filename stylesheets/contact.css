@@ -1,10 +1,14 @@
+* {
+	 text-decoration: none;
+		}
+
 #myFont	{
 	font-face: Microsoft YaHei Light;
 	color: black;
 	text-shadow: 1px 1px blue;
    }
 						
-#l1 a:hover{ 
+#top-nav a:hover{ 
 	  		 text-shadow: black 1px 1px 1px;
 	  		 border-bottom: 2px solid white
 				}
@@ -13,7 +17,7 @@
 	  		 background-attachment: fixed;
 				}
 				
-#L402 .btn { 
+#contact-form .btn { 
 					width: 204px;
 	  		 		height: 40px;
 	  		 		background-color: white;
@@ -24,10 +28,7 @@
 	  		 		border-radius: 5px;
 						}
 						
-#L402 .btn:hover{
+#contact-form .btn:hover{
 	  				opacity: 1;
 						}
 						
-* {
-	 text-decoration: none;
-		}

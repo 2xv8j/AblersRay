@@ -2,20 +2,22 @@
 		text-decoration: none;
 		}
 		
-#l2 {
+#top-nav {
 				text-shadow: 1px 1px black;
 		}
-		
-#l3 {
-				text-shadow: 3px 3px black;
-				font-size: 96px;
-		}
 
-#l2 a:hover{
+#top-nav a:hover{
 				text-shadow: 2px 2px black;
 				border: none;
 				border-bottom: 2px solid white;
 		}
+
+#page-title {
+				text-shadow: 3px 3px black;
+				font-size: 96px;
+		}
+
+
 
 
 .list a:hover{

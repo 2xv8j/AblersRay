@@ -7,7 +7,7 @@ html{
     	scroll-snap-type: y mandatory;
     }
 
-body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), url("Images/7.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
+body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), url("Images/extra.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
 
 #l2 {font-size: 50px;}
 

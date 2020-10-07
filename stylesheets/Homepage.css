@@ -7,7 +7,7 @@ html{
     	scroll-snap-type: y mandatory;
     }
 
-body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), url("Images/extra.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
+body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), background-repeat: no-repeat; background-attachment: fixed;}
 
 #l2 {font-size: 50px;}
 
@@ -34,7 +34,7 @@ body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), 
 
 #layer1 font {
 				  color: white;
-				  background: url("Images/4.jpg") no-repeat;
+				  background: url("Images/extra.jpg") no-repeat;
 				  background-size: 100%;
 				  -webkit-background-clip: text;
 				  -webkit-text-fill-color: transparent;

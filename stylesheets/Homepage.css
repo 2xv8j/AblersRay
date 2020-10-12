@@ -7,7 +7,7 @@ html{
     	scroll-snap-type: y mandatory;
     }
 
-body{margin:0; background-image: linear-gradient(to bottom, transparent, rgb(0,0,0)), url("Images/homepage-bg.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
+body{margin:0; background-image: linear-gradient(to bottom, transparent, black 100%), url("Images/homepage-bg.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
 
 #title {font-size: 50px;}
 

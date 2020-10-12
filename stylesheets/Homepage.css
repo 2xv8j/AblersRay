@@ -9,7 +9,7 @@ html{
 
 body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), url("Images/homepage-bg.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
 
-#l2 {font-size: 50px;}
+#title {font-size: 50px;}
 
 #nav {line-height: 320%}
 
@@ -27,12 +27,12 @@ body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), 
 				background: rgba(0, 0, 0, 0);
 					}
 
-#layer1 {
+#sub-head {
 		  background-color: rgba(0, 0, 0, 0);
 		  background-size: cover;
 			}
 
-#layer1 font {
+#sub-head font {
 				  color: white;
 				  background: url("Images/extra.jpg") no-repeat;
 				  background-size: 100%;

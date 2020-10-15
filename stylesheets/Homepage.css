@@ -1,4 +1,4 @@
-*{text-decoration: none;}
+* {text-decoration: none;}
 
 html{
 	scroll-behavior: smooth; 
@@ -9,7 +9,7 @@ html{
 
 body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), url("Images/homepage-bg.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
 
-#title {font-size: 50px;}
+#title {font-size: 3em;}
 
 #nav {line-height: 320%}
 
@@ -27,12 +27,12 @@ body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), 
 				background: rgba(0, 0, 0, 0);
 					}
 
-#sub-head {
+font.sub-head {
 		  background-color: rgba(0, 0, 0, 0);
 		  background-size: cover;
 			}
 
-#sub-head font {
+font.sub-head {
 				  color: white;
 				  background: url("Images/extra.jpg") no-repeat;
 				  background-size: 100%;
@@ -45,6 +45,5 @@ section {
     padding: 0rem;
     height: 100vh;
     scroll-snap-align: start;
-    text-align: center;
     position: relative;
 }

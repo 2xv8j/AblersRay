@@ -33,7 +33,7 @@ body{margin:0; background: linear-gradient(to bottom, transparent, black 100%), 
 			}
 
 .sub-head {
-				  color: white;
+				 color: white;
 				  background: url("Images/extra.jpg") no-repeat;
 				  background-size: 100%;
 				  -webkit-background-clip: text;

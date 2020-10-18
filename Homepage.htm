@@ -19,14 +19,14 @@
 	<font color="#FFFFFF" face="Cinzel Decorative">Abler's&nbsp; Ray</font>
 </div>
 
-<div style="position: absolute; width: 575px; height: auto; z-index: 8; left: 6%; top: 40%">
-	<font style="font-size: 4em;" face="Capture it, Candara Light"  class="sub-head">A single website for everything on internet.</font>
+<div style="position: absolute; width: 575px; height: auto; z-index: 8; left: 6%; top: 40%" id="sub-head">
+	<font style="font-size: 4em;" face="Capture it, Candara Light"  class="subhead_text">A single website for everything on internet.</font>
 </div>
 
 
 <div style="position: absolute; width: auto; height: auto; z-index: 11; left: 65%; top: 70%" id="search">
-	<div style="position: absolute; width: 10%; height: auto; z-index: 11; left: -3%; top: -14%" z-index="12"><img src="Images/search-icon.svg" width="46vw" height="48vw"></div>
-	<input type="text" placeholder="Search for anything...">
+	<div style="position: absolute; width: 10%; height: auto; z-index: 11; left: -3%; top: -14%" z-index="12"><img src="Images/search-icon.svg" width="48vw" height="48vw" class="search-icon"></div>
+	<input type="text" placeholder="Search for anything..." class="search_bar">
 </div>
 
 
@@ -49,23 +49,23 @@
 
 <section>
 
-<div style="position: absolute; width: auto; height: auto; left: 20%; top: 5%; z-index: 14;">
-	<a href="#"><img src="Images/Facebook.svg" height="40vw" width="40vw"></a>&nbsp;
-	<a href="#"><img src="Images/Twitter.svg" height="40vw" width="40vw"></a>&nbsp;
-	<a href="#"><img src="Images/Instagram.svg" height="40vw" width="40vw"></a>&nbsp;
+<div id="social_media">
+	<a href="www.facebook.com"><img src="Images/Facebook.svg" alt="fb"></a>&nbsp;
+	<a href="#"><img src="Images/Twitter.svg" alt="Tweet"></a>&nbsp;
+	<a href="#"><img src="Images/Instagram.svg" alt="Insta"></a>&nbsp;
 </div>
 
 
-<div style="position: absolute; width: 20%; height: 2%; z-index: 1; left: 0%; top: -9%; z-index: 14; transform: rotate(90deg);" id="hr1">
+<div style="position: absolute; width: 20%; height: 2%; z-index: 0; left: 0%; top: -9%; transform: rotate(90deg);" id="hr1">
 	<hr color="white" size="2px">
 </div>
 
-<div style="position: absolute; width: 48.5%; height: 2%; z-index: 1; right: -5%; top: 50%; z-index: 14; transform: rotate(90deg);" id="hr3">
+<div style="position: absolute; width: 48.5%; height: 2%; z-index: 0; right: -5%; top: 50%; transform: rotate(90deg);" id="hr2">
 	<hr color="white" size="2px">
 </div>
 
 
-<div align="left" style="position: absolute; top: 15%; text-decoration: none; right: 5%; width: auto; z-index: 13" id="nav">
+<div align="left" id="large-nav">
 
 	<font color="#FFFFFF" face="Pristina" size="6">
 	
@@ -100,25 +100,87 @@
 </div>
 
 
-<div style="position: absolute; height: auto; width: auto; top: 3%; right: 20%;">
+
+
+
+
+<!-- ----------------------------------------------------------------------------- -->
+<!-- --------------------navigation for width less than 1100px-------------------- -->
+<!-- ----------------------------------------------------------------------------- -->
+
+<script src="scripts/homepage.js" async></script>
+
+<div class="hidden">
+	<font class="open_nav" id="openNav" onclick="openNav()">Menu</font>
+
+	<div class="nav-overlay" id="nav">
+
+		<a href="javascript:void(0)" onclick="closeNav()" class="close_btn">&times;</a>
+
+		<div class="nav-content">
+			
+			<font color="#FFFFFF" face="Pristina" size="6">
+			
+				<a href="Blogs.htm">
+				<font color="#FFFFFF">Blog</font></a>
+				<br>
+				<a href="Book.html">
+				<font color="#FFFFFF">Books</font></a>
+				<br>
+				<a href="Contact.htm">
+				<font color="#FFFFFF">Contact Us</font></a>
+				<br>
+				<a href="FMYH.html" style="text-decoration: none;">
+				<font color="#FFFFFF">FMYH</font></a>
+				<br>
+				<a href="Info%20Search.htm" style="text-decoration: none;">
+				<font color="#FFFFFF">Info Search</font></a>
+				<br>
+				<a href="Music.htm" style="text-decoration: none;">
+				<font color="#FFFFFF">Music</font></a>
+				<br>
+				<a href="News.htm" style="text-decoration: none;">
+				<font color="#FFFFFF">News</font></a>
+				<br>
+				<a href="UniRay.htm" style="text-decoration: none;">
+				<font color="#FFFFFF">UniRay</font></a>
+				<br>
+				<a href=".Other%20Services.htm" style="text-decoration: none;">
+				<font color="#FFFFFF">Other Services</font></a>
+				
+				</font>
+		</div>
+	</div>
+</div>
+
+
+<!-- ----------------------------------------------------------------------------- -->
+<!-- ///////////////////////////////////////////////////////////////////////////// -->
+<!-- ----------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+<div class="what-we-do">
 	<font color="white" size="15em">What</font>
-</div>
-
-<div style="position: absolute; height: auto; width: auto; top: 7%; right: 20%;">
+	<p style="margin-top: -2em; margin-left: 1em;">
 	<font face="century gothic" size="5%">we do?</font>
+	</p>
 </div>
 
 
-<div style="position: absolute; height: auto; width: 50%; top: 30%; left: 10%; outline-style: solid; outline-offset: -15px; outline-color: white; background-color: rgba(0, 0, 0, 0.5);  box-shadow: 7px 7px 12px 10px black; padding: 90px; ">	
+<div id="what-we-do-info">	
 	
-	<div>
+	<p>
 		<font color="white" size="6vw">We wait for your words.</font>
-	</div>
+	</p>
 	
-	<div>
-	</br>
-		<font color="white" size="4vw">Yes your words are valuiable for our working.</br> We search the internet for your words and provide best results of your mean.</font>
-	</div>
+	<p>
+		<font color="white" size="4vw">Yes your words are valuable for our working.</br> We search the internet for your words and provide best results of your mean.</font>
+	</p>
 
 </div>
 
@@ -136,16 +198,16 @@
 <section>
 <!--this is the last text of center screen with a arrow pointing down to move onto next screen-->
 
-<div style="position: absolute; width: 100%; height: 100%; z-index: 15; left: 0px; top: 0%; background-color: black; opacity: 0.90" id="l444l44l44l4ll">
+<div style="position: absolute; width: 100%; height: 100%; z-index: 0; left: 0px; top: 0%; background-color: black; opacity: 0.90" id="footer_info_nav">
 
 
-<div style="position: absolute; width: 28%; height: auto; z-index: 2; left: 5%; top: 19%; word-wrap: none;" id="l1001" align="center">
+<div style="position: absolute; width: 28%; height: auto; z-index: 0; left: 5%; top: 19%; word-wrap: none;" align="center">
 
-<img src="Images/Logo2.png" width="239" height="239">
-<br><br>
-<font color="#FFFFFF" face="Yu Gothic UI Semilight" size="4.98em">We are trying to provide as 
-much we can over internet in exchange of your smile.
-</font>
+	<img src="Images/Logo2.png" alt="AblersRay Logo" class="footer_logo">
+	<br><br>
+	<font color="#FFFFFF" face="Yu Gothic UI Semilight" size="4.98em">We are trying to provide as 
+	much we can over internet in exchange of your smile.
+	</font>
 
 </div>
 
@@ -163,15 +225,17 @@ much we can over internet in exchange of your smile.
 
 <table border="0" align="right" height="auto" width="50%">
 	<tr>
-		<td align="center"><font color="#FFFFFF" face="Century Gothic" size="3em">
-			198 West 21<sup>th</sup> Street, Suite 721 Mumbai, Maharashtra, India
-			<br><br>
-			Call us at <a href="tel: +91 1234567890">+91 1234567890</a>
-			<br><br>
-			Our Email: 
-				<font color="#FFFFFF" face="Pristina" style="font-size: 2em;">
-				<a href="mailto: ab.groups.maharashtra@gmail.com">example@gmail.com</a>
-				</font>
+		<td align="center">
+			<font color="#FFFFFF" face="Century Gothic" size="3em">
+				<a href="https://www.google.com/maps/@20.9880134,82.7525293,5z">198 West 21<sup>th</sup> Street, Suite 721 Mumbai, Maharashtra, India</a>
+				<br><br>
+				Call us at <a href="tel: +91 1234567890">+91 1234567890</a>
+				<br><br>
+				Our Email: 
+					<font color="#FFFFFF" face="Pristina" style="font-size: 2em;">
+					<a href="mailto: ab.groups.maharashtra@gmail.com">example@gmail.com</a>
+					</font>
+			</font>
 		</td>
 	</tr>
 </table>
@@ -226,15 +290,15 @@ much we can over internet in exchange of your smile.
 
 </div>
 
-
-
-
-<div style="position: absolute; width: 100%; height: auto; z-index: 1; left: 0%; top: 86%;" id="l1003">
+<div style="position: absolute; width: 100%; height: auto; z-index: 0; left: 0%; top: 86%;" id="license_copyright">
 	<p align="center">
 		<font face="Afterglow" style="font-size: 1.3em" color="white">
 			Copyright 2020- 21  All rights reserved &nbsp;|&nbsp; Share with the world what you saw, also don't forget to get connected to us.
 		</font>
 	</p>
+</div>
+
+
 </div>
 
 </section>
